@@ -1,7 +1,7 @@
 {
   "personal": {
     "name": "Ashish Dubey",
-    "title": "Aerospace Software Engineer",
+    "title": "Embedded Software Engineer",
     "tagline": "Building the Future of Flight",
     "description": "15+ years of expertise in safety-critical embedded systems for aerospace. From Boeing 787 to cutting-edge eVTOL programs, I architect software that powers the next generation of aviation.",
     "email": "ashishdubeyuw@gmail.com",
@@ -14,8 +14,8 @@
     "title": "Crafting Mission-Critical Software",
     "paragraphs": [
       "I'm a Senior Advanced Embedded Engineer at Honeywell Aerospace with over 15 years of experience developing safety-critical flight control systems. My work has directly contributed to some of aviation's most advanced aircraft.",
-      "Currently pursuing my M.S. in Information Systems at the University of Washington's prestigious Michael G. Foster School of Business, I'm expanding my expertise into AI, ML, and cloud computing to shape the future of aerospace technology.",
-      "From Phoenix to Seattle, I've delivered $3M+ in cost savings through intelligent automation and led teams building the software that keeps aircraft safe in the skies."
+      "Currently pursuing my M.S. in Information Systems at the University of Washington's prestigious Michael G. Foster School of Business, I'm expanding my expertise into AI, ML, cybersecurity and cloud computing to shape the future of aerospace technology.",
+      "From Bengaluru to Phoenix to Seattle, I've delivered $3M+ in cost savings through intelligent automation and led teams building the software that keeps aircraft safe in the skies."
     ]
   },
   
@@ -40,6 +40,11 @@
       "number": "3",
       "label": "Trade Secrets"
     }
+    {
+      "icon": "🔬",
+      "number": "39+",
+      "label": "Engineers Mentored"
+    }
   ],
   
   "experience": [
@@ -47,28 +52,28 @@
       "logo": "H",
       "title": "Senior Advanced Embedded Engineer",
       "company": "Honeywell Aerospace",
-      "location": "Phoenix, USA",
+      "location": "Phoenix, USA & Bengaluru, IND",
       "duration": "Jul 2022 - Jun 2025",
       "description": "Leading safety-critical software integration for next-generation eVTOL programs. Architected A429 drivers and RS422 systems while revolutionizing test automation with Python and LabVIEW, delivering $1M+ in savings and 80% cycle time reduction.",
-      "achievements": ["eVTOL Integration", "$1M+ Savings", "Level-A Software"]
+      "achievements": ["eVTOL Integration", "$1M+ Savings", "HIL Simulation Development", "Close Loop Hardware Lab Architect"]
     },
     {
       "logo": "H",
       "title": "Advanced Embedded Engineer",
       "company": "Honeywell Aerospace",
-      "location": "Phoenix, USA",
+      "location": "Phoenix, USA & Bengaluru, IND",
       "duration": "May 2017 - Jul 2022",
       "description": "Designed flight control systems for Boeing 787 and Comac 919 using Embedded C on GHS & DEOS RTOS. Created critical airborne applications including FADEC and Landing Gear Control systems with industry-leading 0.001 defect density.",
-      "achievements": ["Boeing 787", "FADEC Systems", "$2M Automation"]
+      "achievements": ["Boeing 787", "Drivers Development", "$2M+ Automation"]
     },
     {
       "logo": "H",
       "title": "Senior Software Engineer",
       "company": "Honeywell Aerospace",
-      "location": "Phoenix, USA",
+      "location": "Phoenix, USA & Bengaluru, IND",
       "duration": "May 2013 - May 2017",
       "description": "Developed flight control software for Embraer ERJ170, Gulfstream G650, and Comac ARJ21. Fixed flight test defects with 100% accuracy while creating automation tools that saved 3,000 man-hours across four programs.",
-      "achievements": ["Gulfstream G650", "HIL Testing", "DO-178C"]
+      "achievements": ["Flight Controls", "HIL System Testing", "3k+ Hours Saved","FADEC Systems"]
     },
     {
       "logo": "A",
@@ -77,7 +82,7 @@
       "location": "Bengaluru, India",
       "duration": "May 2009 - May 2013",
       "description": "Designed software modules for Boeing 787 Wing Ice Protection Systems with 0.02% defect density. Architected flash memory drivers and developed boot-up code for mission-critical systems.",
-      "achievements": ["Boeing 787", "Flash Drivers", "Safety Critical"]
+      "achievements": ["Boeing 787", "Flash Drivers", "HIL based SIT & UT"]
     }
   ],
   
@@ -85,7 +90,7 @@
     {
       "icon": "💻",
       "title": "Programming",
-      "tags": ["Embedded C", "Python", "C#", "MATLAB", "Simulink"]
+      "tags": ["Embedded C", "Python", "C#", "MATLAB", "Simulink", "SQL"]
     },
     {
       "icon": "🖥️",
@@ -110,11 +115,16 @@
     {
       "icon": "✈️",
       "title": "Standards",
-      "tags": ["DO-178C", "DO-254", "Six Sigma", "Agile", "CI/CD"]
+      "tags": ["DO-178C", "DO-254", "Six Sigma- Green Belt Certified", "Agile", "CI/CD"]
     }
   ],
   
   "locations": [
+    {
+      "title": "Bengaluru, India",
+      "subtitle": "Honeywell Aerospace • Development Center",
+      "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&q=80"
+    },
     {
       "title": "Phoenix, Arizona",
       "subtitle": "Honeywell Aerospace • Innovation Center",
