@@ -3,7 +3,7 @@
     "name": "Ashish Dubey",
     "title": "Embedded Software Engineer",
     "tagline": "Building the Future of Flight",
-    "description": "15+ years of expertise in safety-critical embedded systems for aerospace. From Boeing 787 to cutting-edge eVTOL programs, I architect software that powers the next generation of aviation.",
+    "description": "15+ years of expertise in safety-critical embedded systems for aerospace. From Boeing 787 to cutting-edge eVTOL programs, I architect software that powers the next generation of av...",
     "email": "ashishdubeyuw@gmail.com",
     "phone": "+1 (425) 560-5118",
     "linkedin": "https://www.linkedin.com/in/ashishdubeyuw/",
@@ -13,8 +13,8 @@
   "about": {
     "title": "Crafting Mission-Critical Software",
     "paragraphs": [
-      "I'm a Senior Advanced Embedded Engineer at Honeywell Aerospace with over 15 years of experience developing safety-critical flight control systems. My work has directly contributed to some of aviation's most advanced aircraft.",
-      "Currently pursuing my M.S. in Information Systems at the University of Washington's prestigious Michael G. Foster School of Business, I'm expanding my expertise into AI, ML, cybersecurity and cloud computing to shape the future of aerospace technology.",
+      "I'm a Senior Advanced Embedded Engineer at Honeywell Aerospace with over 15 years of experience developing safety-critical flight control systems. My work has directly contributed to some of av...",
+      "Currently pursuing my M.S. in Information Systems at the University of Washington's prestigious Michael G. Foster School of Business, I'm expanding my expertise into AI, ML, cybersecurity and c...",
       "From Bengaluru to Phoenix to Seattle, I've delivered $3M+ in cost savings through intelligent automation and led teams building the software that keeps aircraft safe in the skies."
     ]
   },
@@ -39,7 +39,7 @@
       "icon": "🔬",
       "number": "3",
       "label": "Trade Secrets"
-    }
+    },
     {
       "icon": "🔬",
       "number": "39+",
@@ -54,7 +54,7 @@
       "company": "Honeywell Aerospace",
       "location": "Phoenix, USA & Bengaluru, IND",
       "duration": "Jul 2022 - Jun 2025",
-      "description": "Leading safety-critical software integration for next-generation eVTOL programs. Architected A429 drivers and RS422 systems while revolutionizing test automation with Python and LabVIEW, delivering $1M+ in savings and 80% cycle time reduction.",
+      "description": "Leading safety-critical software integration for next-generation eVTOL programs. Architected A429 drivers and RS422 systems while revolutionizing test automation with Python and ...",
       "achievements": ["eVTOL Integration", "$1M+ Savings", "HIL Simulation Development", "Close Loop Hardware Lab Architect"]
     },
     {
@@ -63,7 +63,7 @@
       "company": "Honeywell Aerospace",
       "location": "Phoenix, USA & Bengaluru, IND",
       "duration": "May 2017 - Jul 2022",
-      "description": "Designed flight control systems for Boeing 787 and Comac 919 using Embedded C on GHS & DEOS RTOS. Created critical airborne applications including FADEC and Landing Gear Control systems with industry-leading 0.001 defect density.",
+      "description": "Designed flight control systems for Boeing 787 and Comac 919 using Embedded C on GHS & DEOS RTOS. Created critical airborne applications including FADEC and Landing Gear Control ...",
       "achievements": ["Boeing 787", "Drivers Development", "$2M+ Automation"]
     },
     {
@@ -72,7 +72,7 @@
       "company": "Honeywell Aerospace",
       "location": "Phoenix, USA & Bengaluru, IND",
       "duration": "May 2013 - May 2017",
-      "description": "Developed flight control software for Embraer ERJ170, Gulfstream G650, and Comac ARJ21. Fixed flight test defects with 100% accuracy while creating automation tools that saved 3,000 man-hours across four programs.",
+      "description": "Developed flight control software for Embraer ERJ170, Gulfstream G650, and Comac ARJ21. Fixed flight test defects with 100% accuracy while creating automation tools that saved 3,...",
       "achievements": ["Flight Controls", "HIL System Testing", "3k+ Hours Saved","FADEC Systems"]
     },
     {
@@ -81,7 +81,7 @@
       "company": "Alten",
       "location": "Bengaluru, India",
       "duration": "May 2009 - May 2013",
-      "description": "Designed software modules for Boeing 787 Wing Ice Protection Systems with 0.02% defect density. Architected flash memory drivers and developed boot-up code for mission-critical systems.",
+      "description": "Designed software modules for Boeing 787 Wing Ice Protection Systems with 0.02% defect density. Architected flash memory drivers and developed boot-up code for mission-critical s...",
       "achievements": ["Boeing 787", "Flash Drivers", "HIL based SIT & UT"]
     }
   ],
