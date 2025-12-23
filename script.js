@@ -3,7 +3,7 @@ let config = {};
 
 async function loadConfig() {
     try {
-        const response = await fetch('portfolio-config.json');
+        const response = await fetch('./portfolio-config.json');
         config = await response.json();
         populatePage();
     } catch (error) {
@@ -118,9 +118,6 @@ function populatePage() {
             </div>
         `;
     }).join('');
-
-    // Initialize slideshows
-    initializeSlideshows();
     
     // Update contact section
     const contactCards = document.getElementById('contact-cards');
@@ -146,8 +143,63 @@ function populatePage() {
     document.getElementById('footer-text').textContent = 
         `© 2025 ${config.personal.name}. Crafted with precision and passion for aerospace excellence.`;
     
-    // Initialize animations after content is loaded
+    // Initialize animations and slideshows after content is loaded
     initializeAnimations();
+    initializeSlideshows();
+}
+
+function initializeSlideshows() {
+    const locationCards = document.querySelectorAll('.location-card');
+    
+    locationCards.forEach(card => {
+        const slides = card.querySelectorAll('.location-slide');
+        const dots = card.querySelectorAll('.location-dot');
+        
+        if (slides.length <= 1) return; // Skip if only one image
+        
+        let currentSlide = 0;
+        let interval;
+        
+        // Function to change slide
+        const changeSlide = (newIndex) => {
+            slides[currentSlide].classList.remove('active');
+            if (dots.length > 0) dots[currentSlide].classList.remove('active');
+            
+            currentSlide = newIndex;
+            
+            slides[currentSlide].classList.add('active');
+            if (dots.length > 0) dots[currentSlide].classList.add('active');
+        };
+        
+        // Auto-advance slides every 4 seconds
+        const startInterval = () => {
+            interval = setInterval(() => {
+                const nextSlide = (currentSlide + 1) % slides.length;
+                changeSlide(nextSlide);
+            }, 4000);
+        };
+        
+        startInterval();
+        
+        // Manual navigation with dots
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', (e) => {
+                e.stopPropagation();
+                clearInterval(interval);
+                changeSlide(index);
+                startInterval(); // Restart auto-advance
+            });
+        });
+        
+        // Pause on hover
+        card.addEventListener('mouseenter', () => {
+            clearInterval(interval);
+        });
+        
+        card.addEventListener('mouseleave', () => {
+            startInterval();
+        });
+    });
 }
 
 function initializeAnimations() {
@@ -257,45 +309,6 @@ function initializeAnimations() {
 
     document.querySelectorAll('.stat-number').forEach(stat => {
         statsObserver.observe(stat);
-    });
-
-    function initializeSlideshows() {
-    const locationCards = document.querySelectorAll('.location-card');
-    
-    locationCards.forEach(card => {
-        const slides = card.querySelectorAll('.location-slide');
-        const dots = card.querySelectorAll('.location-dot');
-        
-        if (slides.length <= 1) return; // Skip if only one image
-        
-        let currentSlide = 0;
-        
-        // Auto-advance slides every 4 seconds
-        const interval = setInterval(() => {
-            slides[currentSlide].classList.remove('active');
-            dots[currentSlide].classList.remove('active');
-            
-            currentSlide = (currentSlide + 1) % slides.length;
-            
-            slides[currentSlide].classList.add('active');
-            dots[currentSlide].classList.add('active');
-        }, 4000);
-        
-        // Manual navigation with dots
-        dots.forEach((dot, index) => {
-            dot.addEventListener('click', (e) => {
-                e.stopPropagation();
-                clearInterval(interval);
-                
-                slides[currentSlide].classList.remove('active');
-                dots[currentSlide].classList.remove('active');
-                
-                currentSlide = index;
-                
-                slides[currentSlide].classList.add('active');
-                dots[currentSlide].classList.add('active');
-            });
-        });
     });
 }
 
