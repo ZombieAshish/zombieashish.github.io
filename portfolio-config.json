@@ -123,11 +123,16 @@
     {
       "title": "Phoenix, Arizona",
       "subtitle": "Honeywell Aerospace • Innovation Center",
-      /* "image": "Images/HI_PhxTeam.jpeg",*/
       "images": [
         "Images/HI_PhxTeam.jpeg",
         "Images/Sedona1.jpeg",
-        "Images/Sedona12.jpeg"
+        "Images/Sedona12.jpeg",
+        "Images/Sedona123.jpeg",
+        "Images/Sedona1234.jpeg",
+        "Images/Sedona12345.jpeg",
+        "Images/Sedona123456.jpeg",
+        "Images/Sedona1234567.jpeg",
+        "Images/Sedona12345678.jpeg",
       ]
     },
     {
