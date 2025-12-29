@@ -96,7 +96,7 @@
     {
       "icon": "🤖",
       "title": "AI & ML",
-      "tags": ["PyTorch", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"]
+      "tags": ["PyTorch", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "SeaBorn"]
     },
     {
       "icon": "🔧",
@@ -118,7 +118,12 @@
     {
       "title": "Bengaluru, India",
       "subtitle": "Honeywell Aerospace • Development Center",
-      "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&q=80"
+      "images": [
+        "Images/Blr1.jpg",
+        "Images/Blr2.jpg",
+        "Images/Blr3.jpg",
+        "Images/Blr4.jpg"
+      ]
     },
     {
       "title": "Phoenix, Arizona",
@@ -138,7 +143,11 @@
     {
       "title": "Seattle, Washington",
       "subtitle": "Current Home • Tech Innovation Hub",
-      "image": "https://images.unsplash.com/photo-1542223189-67a03fa0f0bd?w=1200&q=80"
+      "images": [
+        "Images/Seattle1.jpg",
+        "Images/Seattle2.jpg",
+        "Images/Seattle3.jpg"
+      ]
     },
     {
       "title": "UW Foster School",
@@ -151,7 +160,16 @@
     {
       "title": "Lynnwood, Washington",
       "subtitle": "Home Base • Pacific Northwest Living",
-      "image": "https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=1200&q=80"
+      "images": [
+        "Images/Lynnwood1.jpg",
+        "Images/Lynnwood2.jpg",
+        "Images/Lynnwood3.jpg",
+        "Images/Lynnwood4.jpg",
+        "Images/Lynnwood5.jpg",
+        "Images/Lynnwood6.jpg",
+        "Images/Astoria.jpg",
+        "Images/CannonBeach.jpg"
+      ]
     }
   ]
 }
